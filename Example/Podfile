@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BitPod_Example', :exclusive => true do
+  pod "BitPod", :path => "../"
+end
+
+target 'BitPod_Tests', :exclusive => true do
+  pod "BitPod", :path => "../"
+
+  
+end
