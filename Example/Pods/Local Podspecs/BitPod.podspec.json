@@ -1,0 +1,25 @@
+{
+  "name": "BitPod",
+  "version": "0.1.0",
+  "summary": "A short description of BitPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BitPod",
+  "license": "MIT",
+  "authors": {
+    "KBryan": "kwame@3einteractive.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BitPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "BitPod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - BitPod (0.1.0)
+
+DEPENDENCIES:
+  - BitPod (from `../`)
+
+EXTERNAL SOURCES:
+  BitPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BitPod: 56130994aba12828f5f1ff056fe8b453445c9dcf
+
+COCOAPODS: 0.39.0

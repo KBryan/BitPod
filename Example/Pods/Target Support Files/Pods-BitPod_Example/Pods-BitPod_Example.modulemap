@@ -1,0 +1,6 @@
+framework module Pods_BitPod_Example {
+  umbrella header "Pods-BitPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

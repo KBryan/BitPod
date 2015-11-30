@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874C6DBBD39FB0F67AF9BE8849FEBE6 /* Pods-BitPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7EDD5AC44711D6D520F24A6CBB3C4F /* Pods-BitPod_Tests-dummy.m */; };
+		2A57E09F8C0CF1347ED7BF16CD7AFC7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2AD86B40BB5A7EADAF4C26AE46A64A42 /* BitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882235F002C8898596AB025BCD295B3F /* BitPod-dummy.m */; };
+		644BA215E7566AD6AE22CDB325085C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6FC2368AD8F1CB270C9B26C20275DD0C /* Pods-BitPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB5187F1B7A3BFE3E85C2D692FDDE49 /* Pods-BitPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEF112DCA43650D9B5C5590AEAE00D0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90BB2C6A998401949165B0E74266C /* ReplaceMe.swift */; };
+		95E769F931E3EA13333AF9BB6A2B3BCB /* Pods-BitPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E4E643E06DBDAA7D5B70B4CBDC471A /* Pods-BitPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973F943940CC8D8332C74E639019489F /* BitPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B8268BADA4DFB34B10E24101617E5A /* BitPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF3EA248D923DB32875A9A2151E81460 /* Pods-BitPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF239E548436F5C71BDC0886AC489C /* Pods-BitPod_Example-dummy.m */; };
+		EB2738328B0503D9070A1129EBE2CE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F849ADD7A536EC22A8471C5FE53D5FA6 /* BitPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6FF567EC42D7A2639B8E2B1BFEB729D /* BitPod.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		783FD250E437B2AA1C590754E2468EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6104797C9596B93BAA1DBEE93827AA8;
+			remoteInfo = BitPod;
+		};
+		BCB483A72A8185CF988A6B2E0FC6A59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6104797C9596B93BAA1DBEE93827AA8;
+			remoteInfo = BitPod;
+		};
+		DA5078C22D7DD199546F8D5D9D280FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE42F1FBC0050434BDF1B84D3BBAD56;
+			remoteInfo = "BitPod-BitPod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026587CA70F6C0FF28F9661CB40951BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040EBC2FBB09D37B8AE98043B328D355 /* Pods_BitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F57B399FB0B7041040A4CC728DDAD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A45B2C02DBB6376F8166DED8F4503BF /* Pods-BitPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Example-resources.sh"; sourceTree = "<group>"; };
+		14551749260B9E6AE668552C3AEB6A27 /* Pods-BitPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1572EDA70D87745276B99A0678FC19FA /* Pods-BitPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitPod.xcconfig; sourceTree = "<group>"; };
+		1EF90BB2C6A998401949165B0E74266C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		236189BD913478E1B4B13018D173B5F0 /* Pods-BitPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EE0D576C0340B9C0778DFA844E4A93 /* Pods_BitPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7263AD2F7C057F2C7AAC83BA33CF66D7 /* Pods-BitPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BitPod_Example.modulemap"; sourceTree = "<group>"; };
+		7BBF9BE7BB6F8161632D1EEC42E01F4F /* BitPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D83ACD5CF196ACD7BD9042E301BDDA5 /* BitPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitPod-prefix.pch"; sourceTree = "<group>"; };
+		882235F002C8898596AB025BCD295B3F /* BitPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BitPod-dummy.m"; sourceTree = "<group>"; };
+		8D6D14A546DD5807E94AEC846473D299 /* Pods-BitPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		960510697A9E47AC145DEEC3D4D3557A /* Pods-BitPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		B6B8268BADA4DFB34B10E24101617E5A /* BitPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitPod-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEEF239E548436F5C71BDC0886AC489C /* Pods-BitPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitPod_Example-dummy.m"; sourceTree = "<group>"; };
+		BFB5187F1B7A3BFE3E85C2D692FDDE49 /* Pods-BitPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C7E4E643E06DBDAA7D5B70B4CBDC471A /* Pods-BitPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		CAA53629F46859D19CC9144724885D55 /* Pods-BitPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC18F2F7125A1888B3E071E32006EFDA /* Pods-BitPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D6FF567EC42D7A2639B8E2B1BFEB729D /* BitPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5B3C463E7C2393DE30F26116650A52 /* Pods-BitPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA7EDD5AC44711D6D520F24A6CBB3C4F /* Pods-BitPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		DC38889BDC0099E610ABF933AA7304FB /* Pods-BitPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E73ACCFD0DF567341C82D02C6FFAAD07 /* Pods-BitPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB100F846E54E0CC911A81AFD5B17405 /* BitPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BitPod.modulemap; sourceTree = "<group>"; };
+		EDEAAA3BAFAEEF50E2C2C90F3D7AC0E8 /* Pods-BitPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BitPod_Tests.modulemap"; sourceTree = "<group>"; };
+		FA422B8C2FC6896B2D7CD93D33EBC5B2 /* Pods-BitPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD924CE5C5C8B262EFE9D6084A97CA9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09467DE7452C1E0066641D9557ACA5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2738328B0503D9070A1129EBE2CE2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A326E4B1E47CC301EC840CC16316D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30878E40301C999E41008217F25E14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644BA215E7566AD6AE22CDB325085C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05CF9CF2F57EF1CADA2B596B19A4C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A57E09F8C0CF1347ED7BF16CD7AFC7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE0EE8279CD49ECD5783F87A91C1426 /* BitPod */ = {
+			isa = PBXGroup;
+			children = (
+				752C0B247F2A3DBFC3F114837668613C /* Pod */,
+				315750837BFD23648988ADC4CE9EF2CD /* Support Files */,
+			);
+			name = BitPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1B8D6B4E013A4B4BEC658621C75CF215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FF567EC42D7A2639B8E2B1BFEB729D /* BitPod.bundle */,
+				7BBF9BE7BB6F8161632D1EEC42E01F4F /* BitPod.framework */,
+				46EE0D576C0340B9C0778DFA844E4A93 /* Pods_BitPod_Example.framework */,
+				040EBC2FBB09D37B8AE98043B328D355 /* Pods_BitPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315750837BFD23648988ADC4CE9EF2CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB100F846E54E0CC911A81AFD5B17405 /* BitPod.modulemap */,
+				1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */,
+				882235F002C8898596AB025BCD295B3F /* BitPod-dummy.m */,
+				7D83ACD5CF196ACD7BD9042E301BDDA5 /* BitPod-prefix.pch */,
+				B6B8268BADA4DFB34B10E24101617E5A /* BitPod-umbrella.h */,
+				026587CA70F6C0FF28F9661CB40951BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BitPod";
+			sourceTree = "<group>";
+		};
+		515C2EE2DC865D9C172D8844C401BAD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF746A5E0FC71FCA1E0D53049BFD0170 /* Pods-BitPod_Example */,
+				52E4E2F8FE1C0768CFE98C59E272075A /* Pods-BitPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52E4E2F8FE1C0768CFE98C59E272075A /* Pods-BitPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD924CE5C5C8B262EFE9D6084A97CA9F /* Info.plist */,
+				EDEAAA3BAFAEEF50E2C2C90F3D7AC0E8 /* Pods-BitPod_Tests.modulemap */,
+				E73ACCFD0DF567341C82D02C6FFAAD07 /* Pods-BitPod_Tests-acknowledgements.markdown */,
+				14551749260B9E6AE668552C3AEB6A27 /* Pods-BitPod_Tests-acknowledgements.plist */,
+				DA7EDD5AC44711D6D520F24A6CBB3C4F /* Pods-BitPod_Tests-dummy.m */,
+				1572EDA70D87745276B99A0678FC19FA /* Pods-BitPod_Tests-frameworks.sh */,
+				960510697A9E47AC145DEEC3D4D3557A /* Pods-BitPod_Tests-resources.sh */,
+				BFB5187F1B7A3BFE3E85C2D692FDDE49 /* Pods-BitPod_Tests-umbrella.h */,
+				CAA53629F46859D19CC9144724885D55 /* Pods-BitPod_Tests.debug.xcconfig */,
+				CC18F2F7125A1888B3E071E32006EFDA /* Pods-BitPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-BitPod_Tests";
+			path = "Target Support Files/Pods-BitPod_Tests";
+			sourceTree = "<group>";
+		};
+		5355D4A88926D8D79048ADBA6EE72538 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EF90BB2C6A998401949165B0E74266C /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		752C0B247F2A3DBFC3F114837668613C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5355D4A88926D8D79048ADBA6EE72538 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CB90E55C42D57FED28696C4550CA621A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1B8D6B4E013A4B4BEC658621C75CF215 /* Products */,
+				515C2EE2DC865D9C172D8844C401BAD9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB90E55C42D57FED28696C4550CA621A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DE0EE8279CD49ECD5783F87A91C1426 /* BitPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DF746A5E0FC71FCA1E0D53049BFD0170 /* Pods-BitPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				05F57B399FB0B7041040A4CC728DDAD1 /* Info.plist */,
+				7263AD2F7C057F2C7AAC83BA33CF66D7 /* Pods-BitPod_Example.modulemap */,
+				DC38889BDC0099E610ABF933AA7304FB /* Pods-BitPod_Example-acknowledgements.markdown */,
+				8D6D14A546DD5807E94AEC846473D299 /* Pods-BitPod_Example-acknowledgements.plist */,
+				BEEF239E548436F5C71BDC0886AC489C /* Pods-BitPod_Example-dummy.m */,
+				236189BD913478E1B4B13018D173B5F0 /* Pods-BitPod_Example-frameworks.sh */,
+				0A45B2C02DBB6376F8166DED8F4503BF /* Pods-BitPod_Example-resources.sh */,
+				C7E4E643E06DBDAA7D5B70B4CBDC471A /* Pods-BitPod_Example-umbrella.h */,
+				FA422B8C2FC6896B2D7CD93D33EBC5B2 /* Pods-BitPod_Example.debug.xcconfig */,
+				DA5B3C463E7C2393DE30F26116650A52 /* Pods-BitPod_Example.release.xcconfig */,
+			);
+			name = "Pods-BitPod_Example";
+			path = "Target Support Files/Pods-BitPod_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		296197A90C07183BB5A98198596E53A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC2368AD8F1CB270C9B26C20275DD0C /* Pods-BitPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6FFA7D71021671B614D2AE2A26E35D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E769F931E3EA13333AF9BB6A2B3BCB /* Pods-BitPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A9D4C2632BC84A5CA1BE621FF664C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973F943940CC8D8332C74E639019489F /* BitPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BE42F1FBC0050434BDF1B84D3BBAD56 /* BitPod-BitPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09DE2664654D30295735E04EA813A74 /* Build configuration list for PBXNativeTarget "BitPod-BitPod" */;
+			buildPhases = (
+				DD54A46A015A9543408EDD39A6815170 /* Sources */,
+				39A326E4B1E47CC301EC840CC16316D2 /* Frameworks */,
+				59ED58E2FBCA2038803CE808E1AFD82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitPod-BitPod";
+			productName = "BitPod-BitPod";
+			productReference = D6FF567EC42D7A2639B8E2B1BFEB729D /* BitPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CDC443B2D7D240EC759BECC645194A3F /* Pods-BitPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E86DA23503F752F57F054342DB266A /* Build configuration list for PBXNativeTarget "Pods-BitPod_Tests" */;
+			buildPhases = (
+				6D97139A9A0562D7D552BAFD1FD09B79 /* Sources */,
+				09467DE7452C1E0066641D9557ACA5C8 /* Frameworks */,
+				296197A90C07183BB5A98198596E53A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37969E59596BE350236DE52650C1D047 /* PBXTargetDependency */,
+			);
+			name = "Pods-BitPod_Tests";
+			productName = "Pods-BitPod_Tests";
+			productReference = 040EBC2FBB09D37B8AE98043B328D355 /* Pods_BitPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6104797C9596B93BAA1DBEE93827AA8 /* BitPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD856F29944FFD9EAD28499467FBD76 /* Build configuration list for PBXNativeTarget "BitPod" */;
+			buildPhases = (
+				5AF604EBB7A0716A88D705C850C794ED /* Sources */,
+				C05CF9CF2F57EF1CADA2B596B19A4C78 /* Frameworks */,
+				E10C3C2FFFFFB425BC2BDED6A8B88233 /* Resources */,
+				B3A9D4C2632BC84A5CA1BE621FF664C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559DD2670C705C9C90C557F3005296FB /* PBXTargetDependency */,
+			);
+			name = BitPod;
+			productName = BitPod;
+			productReference = 7BBF9BE7BB6F8161632D1EEC42E01F4F /* BitPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF8C25926734D259E094C48A7CF1115C /* Pods-BitPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDC3AC89CA573703A9E10D861923933 /* Build configuration list for PBXNativeTarget "Pods-BitPod_Example" */;
+			buildPhases = (
+				D63733BBC693FD66431A54144E26B133 /* Sources */,
+				B30878E40301C999E41008217F25E14C /* Frameworks */,
+				AB6FFA7D71021671B614D2AE2A26E35D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C59C5CE58D051E929E62C14B0F502B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BitPod_Example";
+			productName = "Pods-BitPod_Example";
+			productReference = 46EE0D576C0340B9C0778DFA844E4A93 /* Pods_BitPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1B8D6B4E013A4B4BEC658621C75CF215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6104797C9596B93BAA1DBEE93827AA8 /* BitPod */,
+				5BE42F1FBC0050434BDF1B84D3BBAD56 /* BitPod-BitPod */,
+				EF8C25926734D259E094C48A7CF1115C /* Pods-BitPod_Example */,
+				CDC443B2D7D240EC759BECC645194A3F /* Pods-BitPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59ED58E2FBCA2038803CE808E1AFD82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10C3C2FFFFFB425BC2BDED6A8B88233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F849ADD7A536EC22A8471C5FE53D5FA6 /* BitPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF604EBB7A0716A88D705C850C794ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD86B40BB5A7EADAF4C26AE46A64A42 /* BitPod-dummy.m in Sources */,
+				7CEF112DCA43650D9B5C5590AEAE00D0 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D97139A9A0562D7D552BAFD1FD09B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874C6DBBD39FB0F67AF9BE8849FEBE6 /* Pods-BitPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63733BBC693FD66431A54144E26B133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3EA248D923DB32875A9A2151E81460 /* Pods-BitPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD54A46A015A9543408EDD39A6815170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C59C5CE58D051E929E62C14B0F502B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitPod;
+			target = E6104797C9596B93BAA1DBEE93827AA8 /* BitPod */;
+			targetProxy = BCB483A72A8185CF988A6B2E0FC6A59C /* PBXContainerItemProxy */;
+		};
+		37969E59596BE350236DE52650C1D047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitPod;
+			target = E6104797C9596B93BAA1DBEE93827AA8 /* BitPod */;
+			targetProxy = 783FD250E437B2AA1C590754E2468EC4 /* PBXContainerItemProxy */;
+		};
+		559DD2670C705C9C90C557F3005296FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BitPod-BitPod";
+			target = 5BE42F1FBC0050434BDF1B84D3BBAD56 /* BitPod-BitPod */;
+			targetProxy = DA5078C22D7DD199546F8D5D9D280FD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		022C78A1670FE0564369BE74E6517A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0B7624C8F03E413902A1F39DBB1066BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BitPod/BitPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BitPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BitPod/BitPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12FC1AC173B26197A4B0565B851CA4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA422B8C2FC6896B2D7CD93D33EBC5B2 /* Pods-BitPod_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitPod_Example/Pods-BitPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BitPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F38005542A975137D3EBA2A5ED769A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA53629F46859D19CC9144724885D55 /* Pods-BitPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitPod_Tests/Pods-BitPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BitPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FF003F5A5B240AB3C125A879EEEE67D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5B3C463E7C2393DE30F26116650A52 /* Pods-BitPod_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitPod_Example/Pods-BitPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BitPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7252A274FDEFA6E90014695D1BE945CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BitPod/BitPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BitPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BitPod/BitPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6C64C50A68619976820B6E4317693E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E95E808EABA0E148F0BE3A276BA74406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC18F2F7125A1888B3E071E32006EFDA /* Pods-BitPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitPod_Tests/Pods-BitPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BitPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDC3AC89CA573703A9E10D861923933 /* Build configuration list for PBXNativeTarget "Pods-BitPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FC1AC173B26197A4B0565B851CA4A6 /* Debug */,
+				5FF003F5A5B240AB3C125A879EEEE67D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E86DA23503F752F57F054342DB266A /* Build configuration list for PBXNativeTarget "Pods-BitPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F38005542A975137D3EBA2A5ED769A1 /* Debug */,
+				E95E808EABA0E148F0BE3A276BA74406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD856F29944FFD9EAD28499467FBD76 /* Build configuration list for PBXNativeTarget "BitPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7624C8F03E413902A1F39DBB1066BE /* Debug */,
+				7252A274FDEFA6E90014695D1BE945CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09DE2664654D30295735E04EA813A74 /* Build configuration list for PBXNativeTarget "BitPod-BitPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C64C50A68619976820B6E4317693E4 /* Debug */,
+				022C78A1670FE0564369BE74E6517A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
