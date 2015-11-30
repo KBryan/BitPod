@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import BitPod
 
 class ViewController: UIViewController {
-
+    let labelExtend = LabelExtend(frame: CGRectMake(10,20,200,30))
+    var isBlinking = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

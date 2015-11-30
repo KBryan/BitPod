@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BitPod: 56130994aba12828f5f1ff056fe8b453445c9dcf
+  BitPod: cb5375c2a39bd1d9619bcbd00ab537e0ce26f0e1
 
 COCOAPODS: 0.39.0

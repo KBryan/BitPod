@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1874C6DBBD39FB0F67AF9BE8849FEBE6 /* Pods-BitPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7EDD5AC44711D6D520F24A6CBB3C4F /* Pods-BitPod_Tests-dummy.m */; };
+		2344BC88854E45C5722CCB3B45B85840 /* BitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882235F002C8898596AB025BCD295B3F /* BitPod-dummy.m */; };
 		2A57E09F8C0CF1347ED7BF16CD7AFC7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2AD86B40BB5A7EADAF4C26AE46A64A42 /* BitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882235F002C8898596AB025BCD295B3F /* BitPod-dummy.m */; };
 		644BA215E7566AD6AE22CDB325085C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		6FC2368AD8F1CB270C9B26C20275DD0C /* Pods-BitPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB5187F1B7A3BFE3E85C2D692FDDE49 /* Pods-BitPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CEF112DCA43650D9B5C5590AEAE00D0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90BB2C6A998401949165B0E74266C /* ReplaceMe.swift */; };
+		7AE353C8A55DAE829896EFABB0BE4C5B /* LabelExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F47F6B37FF99FEB14688D6A0E05D6 /* LabelExtend.swift */; };
 		95E769F931E3EA13333AF9BB6A2B3BCB /* Pods-BitPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E4E643E06DBDAA7D5B70B4CBDC471A /* Pods-BitPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		973F943940CC8D8332C74E639019489F /* BitPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B8268BADA4DFB34B10E24101617E5A /* BitPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF3EA248D923DB32875A9A2151E81460 /* Pods-BitPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF239E548436F5C71BDC0886AC489C /* Pods-BitPod_Example-dummy.m */; };
@@ -46,13 +46,13 @@
 
 /* Begin PBXFileReference section */
 		026587CA70F6C0FF28F9661CB40951BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029F47F6B37FF99FEB14688D6A0E05D6 /* LabelExtend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelExtend.swift; sourceTree = "<group>"; };
 		040EBC2FBB09D37B8AE98043B328D355 /* Pods_BitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F57B399FB0B7041040A4CC728DDAD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A45B2C02DBB6376F8166DED8F4503BF /* Pods-BitPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Example-resources.sh"; sourceTree = "<group>"; };
 		14551749260B9E6AE668552C3AEB6A27 /* Pods-BitPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1572EDA70D87745276B99A0678FC19FA /* Pods-BitPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1860AF6E564BE770E8E00D50BA5663A2 /* BitPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitPod.xcconfig; sourceTree = "<group>"; };
-		1EF90BB2C6A998401949165B0E74266C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		236189BD913478E1B4B13018D173B5F0 /* Pods-BitPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46EE0D576C0340B9C0778DFA844E4A93 /* Pods_BitPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,10 +177,10 @@
 			path = "Target Support Files/Pods-BitPod_Tests";
 			sourceTree = "<group>";
 		};
-		5355D4A88926D8D79048ADBA6EE72538 /* Classes */ = {
+		61E022D13695E33FBA6AA12E74E51947 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1EF90BB2C6A998401949165B0E74266C /* ReplaceMe.swift */,
+				029F47F6B37FF99FEB14688D6A0E05D6 /* LabelExtend.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 		752C0B247F2A3DBFC3F114837668613C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5355D4A88926D8D79048ADBA6EE72538 /* Classes */,
+				61E022D13695E33FBA6AA12E74E51947 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD856F29944FFD9EAD28499467FBD76 /* Build configuration list for PBXNativeTarget "BitPod" */;
 			buildPhases = (
-				5AF604EBB7A0716A88D705C850C794ED /* Sources */,
+				97A71878DC6D2E096CF0440677446084 /* Sources */,
 				C05CF9CF2F57EF1CADA2B596B19A4C78 /* Frameworks */,
 				E10C3C2FFFFFB425BC2BDED6A8B88233 /* Resources */,
 				B3A9D4C2632BC84A5CA1BE621FF664C5 /* Headers */,
@@ -396,20 +396,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AF604EBB7A0716A88D705C850C794ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AD86B40BB5A7EADAF4C26AE46A64A42 /* BitPod-dummy.m in Sources */,
-				7CEF112DCA43650D9B5C5590AEAE00D0 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6D97139A9A0562D7D552BAFD1FD09B79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1874C6DBBD39FB0F67AF9BE8849FEBE6 /* Pods-BitPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A71878DC6D2E096CF0440677446084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2344BC88854E45C5722CCB3B45B85840 /* BitPod-dummy.m in Sources */,
+				7AE353C8A55DAE829896EFABB0BE4C5B /* LabelExtend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
